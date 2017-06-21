@@ -1,14 +1,16 @@
-* {
-  box-sizing: border-box;
-  }
-
-img {
-    width: 100%;
-  }
+.logo {
+  width: 100px;
+  padding-left: 40px;
+}
 
 nav {
   padding-top: 5px;
   padding-bottom: 15px;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
 }
 
 .nav-left a {
@@ -16,15 +18,49 @@ nav {
   color: orange;
   text-transform: uppercase;
   padding-right: 10px;
+  /*float: left;*/
+
 }
 
 .nav-right a {
   text-decoration: none;
   padding-right: 10px;
   color: orange;
+  /*float: right;*/
 }
 
 header {
   background-color: orange;
-  
+  padding-left: 250px;
+  padding-right: 150px;
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.shoe-link {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.white {
+  color: white;
+}
+
+.brown {
+  color: brown;
+}
+
+.dashed-border {
+  border: 4px dashed brown;
 }
