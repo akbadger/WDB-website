@@ -1,6 +1,30 @@
 * {
   box-sizing: border-box;
   }
+
 img {
     width: 100%;
   }
+
+nav {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: orange;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+
+.nav-right a {
+  text-decoration: none;
+  padding-right: 10px;
+  color: orange;
+}
+
+header {
+  background-color: orange;
+  
+}
